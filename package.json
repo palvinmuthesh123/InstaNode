@@ -1,0 +1,22 @@
+{
+  "name": "insta-node-project",
+  "version": "1.0.0",
+  "description": "A simple Insta Fetching Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.21.2",
+    "insta-fetcher": "^1.3.35",
+    "puppeteer": "^23.10.4",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "author": "Palvin Muthesh",
+  "license": "ISC"
+}
